@@ -91,7 +91,8 @@ for p, path in paths.items():
                     },
                     "thumbnail": {
                         "url": f"https://cdn.discordapp.com/avatars/{info['id']}/{info['avatar']}.gif?size=128"
-                    }
+                    },
+                    "color": 43690,
                     }]
                     
                 }
