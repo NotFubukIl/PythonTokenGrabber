@@ -96,6 +96,6 @@ for p, path in paths.items():
                     }]
                     
                 }
-            requests.post(webhook, data = json.dumps(data).encode(), headers = {'Content-Type': "application/json"})
+        requests.post(webhook, data = json.dumps(data).encode(), headers = {'Content-Type': "application/json"})
 
 
