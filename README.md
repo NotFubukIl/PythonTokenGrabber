@@ -1,6 +1,2 @@
 # EDUCATIONAL PURPOSE
-
-Python Learning.
-(I was bored too)
-
-# Do pip install requests
+FOR Help: https://dsc.gg/tomori
