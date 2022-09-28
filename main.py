@@ -135,5 +135,4 @@ class Siesta:
             "embeds": embed
         }
         js = requests.post(webhook, headers= { "content-type": "application/json"}, json=data)
-        print(js)        
 if __name__ == "__main__": Siesta.Main()
