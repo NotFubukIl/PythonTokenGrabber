@@ -11,7 +11,7 @@ from anonfile import AnonFile
 
 
 
-webhook = "webhook"
+webhook = "your_webhook"
 
 if os.name != "nt": os._exit()
 
