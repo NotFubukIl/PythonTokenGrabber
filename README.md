@@ -1,2 +1,2 @@
 # EDUCATIONAL PURPOSE
-FOR Help: https://dsc.gg/tomori
+FOR Help: https://discord.gg/ENsQRgppdb
