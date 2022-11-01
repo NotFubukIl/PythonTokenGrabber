@@ -1,3 +1,4 @@
+anonfile==0.2.7
 pycryptodome==3.15.0
 pywin32==304
-requests==2.28.1
+requests==2.26.0
